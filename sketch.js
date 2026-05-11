@@ -6,7 +6,7 @@ function preload() {
 }
 
 function setup() {
-  let canvas= createCanvas(windowWidth, 4000);
+  let canvas= createCanvas(windowWidth, 9000);
   canvas.parent('container1');
   canvas.style('position', 'absolute');
   canvas.style('z-index', '-1');

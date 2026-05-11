@@ -110,7 +110,7 @@ canvas {
 .picture2 {
   position: absolute;
   margin-top: 27%;
-  left: 5%;
+  left: 7%;
   width: 400px;
   height: 300px;
   z-index: 9;
@@ -126,4 +126,69 @@ canvas {
   width: 1200px;
   z-index: 9;
   mix-blend-mode: hard-light;
+}
+
+.yungmom {
+  position: absolute;
+  margin-top: 140%;
+  left: 7%;
+  width: auto;
+  height: auto;
+  z-index: 9;
+}
+
+.mamasworld {
+  position: absolute;
+  font-family: 'Festive', cursive;
+  font-size: 100px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-top: 210%;
+  left: 33%;
+  z-index: 10;
+}
+
+.collage {
+  position: absolute;
+  margin-top: 220%;
+  left: 7%;
+  width: auto;
+  height: auto;
+  z-index: 9;
+}
+
+.blanket {
+  position: absolute;
+  margin-top: 285%;
+  left: 10%;
+  width: auto;
+  height: auto;
+  z-index: 9;
+}
+
+.collage2 {
+  position: absolute;
+  margin-top: 350%;
+  left: 7%;
+  width: auto;
+  height: auto;
+  z-index: 9;
+}
+
+.familyphoto {
+  position: absolute;
+  margin-top: 420%;
+  left: 7%;
+  width: auto;
+  height: auto;
+  z-index: 9;
+}
+
+.meandmom {
+  position: absolute;
+  margin-top: 500%;
+  left: 7%;
+  width: auto;
+  height: auto;
+  z-index: 9;
 }
