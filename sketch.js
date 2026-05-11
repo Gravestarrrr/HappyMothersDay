@@ -1,6 +1,8 @@
 function setup() {
-  createCanvas(windowWidth, 4000);
-  textFont('Festive');
+  let canvas= createCanvas(windowWidth, 4000);
+  canvas.parent('container1');
+  canvas.style('position', 'absolute');
+  canvas.style('z-index', '-1');
 }
 
 function draw() {
@@ -15,10 +17,4 @@ function draw() {
     stroke(newColor);
     line(0, y, width, y); // Draw a 1-pixel line
   }
-   textFont('Festive');
-  text('Happy Mother\'s Day!', width / 2, 400);
-  noStroke();
-  fill(255);
-  textSize(170);
-  textAlign(CENTER, CENTER);
 }
