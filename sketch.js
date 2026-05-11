@@ -15,12 +15,10 @@ function draw() {
     stroke(newColor);
     line(0, y, width, y); // Draw a 1-pixel line
   }
-
-  text('Happy Mother\'s Day!', width / 2, 300);
-  stroke(255);
-  strokeWeight(5);
+   textFont('Festive');
+  text('Happy Mother\'s Day!', width / 2, 400);
+  noStroke();
   fill(255);
   textSize(170);
   textAlign(CENTER, CENTER);
-  
 }
