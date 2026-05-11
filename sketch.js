@@ -1,5 +1,6 @@
 function setup() {
-  createCanvas(windowWidth, 2000);
+  createCanvas(windowWidth, 4000);
+  textFont('Festive');
 }
 
 function draw() {
@@ -14,4 +15,12 @@ function draw() {
     stroke(newColor);
     line(0, y, width, y); // Draw a 1-pixel line
   }
+
+  text('Happy Mother\'s Day!', width / 2, 300);
+  stroke(255);
+  strokeWeight(5);
+  fill(255);
+  textSize(170);
+  textAlign(CENTER, CENTER);
+  
 }
