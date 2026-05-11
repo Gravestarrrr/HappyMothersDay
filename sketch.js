@@ -1,8 +1,29 @@
+let mySound;
+let started = false; // Audio Loop
+
+function preload() {
+  mySound = loadSound("amoreterno.mp3");
+}
+
 function setup() {
   let canvas= createCanvas(windowWidth, 4000);
   canvas.parent('container1');
   canvas.style('position', 'absolute');
   canvas.style('z-index', '-1');
+}
+
+//Function to loop and play Music, SHOUT ELLIE
+function mousePressed() {
+  // unlock audio context on user gesture
+  userStartAudio();
+  if (!started) {
+    mySound.loop();
+    started = true;
+  } else {
+    // optional toggle
+    if (mySound.isPlaying()) mySound.pause();
+    else mySound.loop();
+  }
 }
 
 function draw() {

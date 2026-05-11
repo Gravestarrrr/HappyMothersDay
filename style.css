@@ -7,6 +7,25 @@ canvas {
   display: block;
 }
 
+.festive-regular {
+  font-family: "Festive", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.tangerine-regular {
+  font-family: "Tangerine", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.tangerine-bold {
+  font-family: "Tangerine", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
 .relativeparents {
   position: relative;
   mix-blend-mode: multiply
@@ -95,4 +114,16 @@ canvas {
   width: 400px;
   height: 300px;
   z-index: 9;
+}
+
+.letter {
+  position: absolute;
+  font-family: 'Tangerine', cursive;
+  font-size: 32px;
+  font-weight: 700;
+  margin-top: 85%;
+  left: 10%;
+  width: 1200px;
+  z-index: 9;
+  mix-blend-mode: hard-light;
 }
